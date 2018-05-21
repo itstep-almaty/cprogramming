@@ -21,9 +21,9 @@
 using namespace std;
 int main(){
    int a,b;
-   cin >> a >> b;
-   cout << "a = " << a << endl;
-   cout << "b = " << b << endl;
+   cin >> a >> b; // ввод a и b
+   cout << "a = " << a << endl; // вывод a
+   cout << "b = " << b << endl; // вывод b
 }
 ```
 
