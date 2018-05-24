@@ -52,7 +52,7 @@
    int a = 5; // 5 - литерал типа int
    unsigned int b = 5u; // 5u или 5U - литерал типа unsigned int
    double d = 1.5; // 1.5 - литерал типа double
-   double f = 1.5F; // 1.5F или 1.5f - литерал типа float
+   float f = 1.5F; // 1.5F или 1.5f - литерал типа float
    char c = 'A'; // 'A' - литерал типа char
    ```
 
