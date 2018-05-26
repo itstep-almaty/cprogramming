@@ -133,7 +133,5 @@
 9. [Вывод данных в консоль](./module01/вывод_данных.md)
 10. [ESCAPE-последовательности](module01/ESCAPE-последовательности.md)
 11. [RAW-строки](module01/raw-строки.md)
-   * простая строка `"C:\\Program Files\\tablet\\amd64\\bin>"`
-   * RAW-строка `R"(C:\Program Files\tablet\amd64\bin>)"`
 12. [Комментарии](module01/комментарии.md)
    
