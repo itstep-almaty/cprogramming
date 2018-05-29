@@ -4,7 +4,7 @@
 Далее новый контест по ссылке https://www.hackerrank.com/itstep-contest-04.
 Как решите несколько задач, отправьте как ответ на домашнее задание скриншот [лидербоарда](https://www.hackerrank.com/itstep-contest-04/leaderboard) контеста.
 
-![Пример лидербоарда контеста который делали в классе.](leaderboard.png)
-
+Пример лидербоарда с контеста который решали на паре.
+![contest03 leaderboard](leaderboard.png)
 
 ### Удачи!
