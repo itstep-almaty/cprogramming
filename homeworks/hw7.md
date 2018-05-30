@@ -1,1 +1,6 @@
-www.hackerrank.com/itstep-contest-06
+### Домашнее Задание №7
+
+Контест для этого домашнего задания находится по ссылке https://www.hackerrank.com/itstep-contest-06.
+Как решите несколько (а лучше все) задач, отправьте как ответ на домашнее задание скриншот [лидербоарда](https://www.hackerrank.com/itstep-contest-06/leaderboard) контеста.
+
+### Удачи!
