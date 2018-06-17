@@ -6,9 +6,9 @@
 ## Контент курса
 
 ### Модуль 4
-1. [Цикл `while`](./module04/while.md)
-2. [Цикл `for`](./module04/for.md)
-3. [Цикл `do-while`](./module04/do-while.md)
+1. [`while`](./module04/while.md)
+2. [`for`](./module04/for.md)
+3. [`do-while`](./module04/do-while.md)
 4. [`break/continue`](./module04/break-continue.md)
 5. Вложенные циклы
 
