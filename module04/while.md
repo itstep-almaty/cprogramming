@@ -1,30 +1,6 @@
 
 1. Написать программу, которая выводит на экран ваши имя и фамилию 10 раз.
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-	int x = 0;
-	while (x<10) {
-		cout << "Vasya Pupkin" << endl;
-		x+=1;
-	}
-}
-```
-output:
-```
-Vasya Pupkin
-Vasya Pupkin
-Vasya Pupkin
-Vasya Pupkin
-Vasya Pupkin
-Vasya Pupkin
-Vasya Pupkin
-Vasya Pupkin
-Vasya Pupkin
-Vasya Pupkin
-```
+[сдаюсь, дай решение](./helloworld.cpp)
 
 2. Написать программу, которая выводит таблицу квадратов первых десяти целых положительных чисел
 ```cpp
