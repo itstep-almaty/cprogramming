@@ -12,6 +12,19 @@ int main() {
 	}
 }
 ```
+output:
+```
+Vasya Pupkin
+Vasya Pupkin
+Vasya Pupkin
+Vasya Pupkin
+Vasya Pupkin
+Vasya Pupkin
+Vasya Pupkin
+Vasya Pupkin
+Vasya Pupkin
+Vasya Pupkin
+```
 
 2. Написать программу, которая выводит таблицу квадратов первых десяти целых положительных чисел
 ```cpp
