@@ -2,8 +2,14 @@
 1. Написать программу, которая выводит на экран ваши имя и фамилию 10 раз.
 ```cpp
 #include <iostream>
-int main(){
-  
+using namespace std;
+
+int main() {
+	int x = 0;
+	while (x<10) {
+		cout << "Vasya Pupkin" << endl;
+		x+=1;
+	}
 }
 ```
 
