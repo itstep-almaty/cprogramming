@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	int x = 0;
 	while (x<10) {
-		cout << "Vasya Pupkin" << endl;
+		cout << "hello world" << endl;
 		x+=1;
 	}
 }
