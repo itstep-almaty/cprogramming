@@ -1,4 +1,4 @@
-1. [Локальные и глобальные переменные](https://foxford.ru/wiki/informatika/lokalnye-i-globalnye-peremennye)
+0. [Локальные и глобальные переменные](https://foxford.ru/wiki/informatika/lokalnye-i-globalnye-peremennye)
 2. [Модель памяти](https://foxford.ru/wiki/informatika/model-pamyati-prilozheniya)
 3. Указатели. Адрес переменной. Оператор &. Оператор разыменования \* (он же оператор косвенной адресации)
   * [Указатели](https://foxford.ru/wiki/informatika/ukazateli-v-s) 
