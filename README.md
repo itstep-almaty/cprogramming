@@ -5,6 +5,8 @@
 
 ### [Модуль 7: указатели](./module07)
 
+* [itstep-constest-7-01](./homeworks/itstep_contest_7_01.md)
+
 ### [Модуль 6: функции](./module06)
 
 ### [Модуль 5: массивы](./module05)
