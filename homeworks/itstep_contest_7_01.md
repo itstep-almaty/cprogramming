@@ -12,7 +12,7 @@
 		int B[100];
 		int *P = A; 
 
-	    // read
+	        // read
 		while (cin >> *P) P++;
 		//cout << *(P-1) << endl;
 
