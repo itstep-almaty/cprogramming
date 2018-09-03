@@ -6,6 +6,7 @@
 ### [Модуль 7: указатели](./module07)
 
 * [itstep-constest-7-01](./homeworks/itstep_contest_7_01.md)
+* [itstep-constest-7-02](./homeworks/itstep_contest_7_02.md)
 
 ### [Модуль 6: функции](./module06)
 
