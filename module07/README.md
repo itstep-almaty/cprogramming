@@ -25,8 +25,49 @@
   * необходимость использования указателя на функцию;
   * синтаксис объявления указателя на функцию;
   * примеры использования указателя на функцию, массива указателей на функции.
-    * https://foxford.ru/wiki/informatika/massivy-ukazateley-v-s
-    * https://foxford.ru/wiki/informatika/dvumernye-massivy-v-s
+  ```cpp
+  #include <iostream>
+using namespace std;
+
+bool comp1(int x, int y) {
+	return x < y;
+}
+
+bool comp2(int x, int y) {
+	return x > y;
+}
+
+bool comp3(int x, int y) {
+	if (x % 2 == 0 && y % 2 != 0) return true;
+	if (x % 2 != 0 && y % 2 == 0) return false;
+	return x>y;
+}
+
+void super_sort(int A[], int n, bool (*compare)(int,int) ) {
+	for (int i = 0; i < n - 1; i++) {
+		for (int j = i + 1; j < n; j++) {
+			if (compare(A[i], A[j])) {
+				swap(A[i], A[j]);
+			}
+		}
+	}
+}
+
+// тип (*имя_указателя) (параметры);
+int main() {
+	int A[10] = { 1,2,3,4,666,5,6,7,8,9 };
+	int n = 10;
+	super_sort(A, n, &comp1);
+	for (int i = 0; i < n; i++) cout << A[i] << " ";
+	cout << endl;
+	super_sort(A, n, comp2);
+	for (int i = 0; i < n; i++) cout << A[i] << " ";
+	cout << endl;
+	super_sort(A, n, comp3);
+	for (int i = 0; i < n; i++) cout << A[i] << " ";
+	cout << endl;
+}
+```
   
   
 
