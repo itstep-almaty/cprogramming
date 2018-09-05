@@ -20,6 +20,46 @@
   * передача по ссылке;
   * [передача по указателю](https://foxford.ru/wiki/informatika/peredacha-parametra-po-ukazatelyu-v-s)
   
+  ```cpp
+  #include <iostream>
+using namespace std;
+
+void pp(int *ptr) { // c-style, passing of paraemters by pointer
+	*ptr = *ptr + 1;
+}
+
+void ppp(const int& r) { // c++ style, passing of paraemters by reference
+	cout << "r = " << r << endl;
+	return;
+}
+
+int main() {
+	int x = 7;
+	
+	pp(&x);
+	pp(&x);
+	pp(&x);
+	cout << x << endl; // 10
+
+
+	int& y = x; // reference
+	y++;
+	x++;
+	
+	cout << x << " " << y << endl;
+	cout << &x << " " << &y << endl;
+
+
+	int z = 0;
+	pp(&z);
+	ppp(z);
+	cout << "z=" << z << endl;
+
+	return 0;
+}
+
+```
+  
 9.	Указатель на функцию:
   * понятие адреса функции;
   * необходимость использования указателя на функцию;
