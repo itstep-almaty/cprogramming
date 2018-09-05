@@ -43,7 +43,7 @@ bool comp3(int x, int y) {
 	return x>y;
 }
 
-void super_sort(int A[], int n, bool (*compare)(int,int) ) {
+void super_sort(int A[], int n, bool (*compare)(int,int) = comp1) {
 	for (int i = 0; i < n - 1; i++) {
 		for (int j = i + 1; j < n; j++) {
 			if (compare(A[i], A[j])) {
@@ -54,6 +54,21 @@ void super_sort(int A[], int n, bool (*compare)(int,int) ) {
 }
 
 // тип (*имя_указателя) (параметры);
+int another_main() {
+	int A[10] = { 1,2,3,4,666,5,6,7,8,9 };
+	int n = 10;
+
+	bool(*C[])(int, int) = { comp1,comp2,comp3 };
+
+	for (int i = 0; i < 3; i++) {
+		super_sort(A, n, C[i]);
+		for (int i = 0; i < n; i++) cout << A[i] << " ";
+		cout << endl;
+	}
+
+	return 0;
+}
+
 int main() {
 	int A[10] = { 1,2,3,4,666,5,6,7,8,9 };
 	int n = 10;
@@ -66,6 +81,8 @@ int main() {
 	super_sort(A, n, comp3);
 	for (int i = 0; i < n; i++) cout << A[i] << " ";
 	cout << endl;
+
+	another_main();
 }
 ```
   
