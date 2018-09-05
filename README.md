@@ -3,6 +3,13 @@
 * [Дополнительные материалы](./appendix.md)
 * [Силлабус](./syllabus.pdf)
 
+### [Модуль 9: массивы указателей](./module09)
+
+* https://foxford.ru/wiki/informatika/massivy-ukazateley-v-s
+* https://foxford.ru/wiki/informatika/dvumernye-massivy-v-s
+
+### [Модуль 8: строки](./module08)
+
 ### [Модуль 7: указатели](./module07)
 
 * [itstep-constest-7-01](./homeworks/itstep_contest_7_01.md)
