@@ -1,3 +1,4 @@
+// переводит первую букву каждого предложения в верхний регистр
 #include <iostream>
 #include <cstring>
 using namespace std;
