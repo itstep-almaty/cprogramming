@@ -9,8 +9,8 @@
 * https://foxford.ru/wiki/informatika/dvumernye-massivy-v-s
 
 ### [Модуль 8: строки](./module08)
-* [example01.cpp](./homeworks/module08/example01.cpp)
-* [example02.cpp](./homeworks/module08/example02.cpp)
+* [example01.cpp](./module08/example01.cpp)
+* [example02.cpp](./module08/example02.cpp)
 
 
 ### [Модуль 7: указатели](./module07)
