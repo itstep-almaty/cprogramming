@@ -5,8 +5,9 @@
 
 ### [Модуль 9: массивы указателей](./module09)
 
-* https://foxford.ru/wiki/informatika/massivy-ukazateley-v-s
-* https://foxford.ru/wiki/informatika/dvumernye-massivy-v-s
+* [Массивы указателей в Си](https://foxford.ru/wiki/informatika/massivy-ukazateley-v-s)
+* [Двумерные массивы](https://foxford.ru/wiki/informatika/dvumernye-massivy-v-s)
+* [Динамические массивы в Си](https://foxford.ru/wiki/informatika/dinamicheskie-dvumernye-massivy-v-s)
 
 ### [Модуль 8: строки](./module08)
 * [работа со строками](https://foxford.ru/wiki/informatika/rabota-so-strokami-v-s)
