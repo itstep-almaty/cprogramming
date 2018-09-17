@@ -5,6 +5,8 @@
 
 ### [Модуль 9: массивы указателей](./module09)
 
+* [example01.cpp](./module09/example01.cpp)
+
 * [Массивы указателей в Си](https://foxford.ru/wiki/informatika/massivy-ukazateley-v-s)
 * [Двумерные массивы](https://foxford.ru/wiki/informatika/dvumernye-massivy-v-s)
 * [Динамические массивы в Си](https://foxford.ru/wiki/informatika/dinamicheskie-dvumernye-massivy-v-s)
