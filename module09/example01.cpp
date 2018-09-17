@@ -7,24 +7,26 @@ using namespace std;
 int main()
 {
     
-    int* A[10];
-    int n[10];
+    int* A[10]; // массив массивов (или указателей)
+    int n[10];  // массив длин
+    
     for(int i=0;i<10;i++)
     {
-        n[i] = rand()%10 + 1;
-        A[i] = new int[n[i]];
-        for(int j=0;j<n[i];j++){
+        n[i] = rand()%10 + 1; // случайная длина
+        A[i] = new int[n[i]]; // создаем массив
+        
+        for(int j=0;j<n[i];j++){ // заполняем случайными числами и печатаем
             A[i][j] = rand()%20;
             cout << A[i][j] << " ";
         }
         cout << endl;
     }
     
-    cout << endl;
+    cout << endl; // печатаем массив номер 3
     for(int k=0;k<n[3];k++) cout << A[3][k] << " ";
     cout << endl;
     
-    for(int i=0;i<10;i++) cout << n[i] << " ";
+    for(int i=0;i<10;i++) cout << n[i] << " "; // печаем длины чтобы посмотреть
     cout << endl;
     
 }
