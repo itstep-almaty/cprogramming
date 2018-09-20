@@ -4,7 +4,7 @@
 
 * [0283 Рунные слова](http://acmp.ru/index.asp?main=task&id_task=283)
 * [641 Странная лотерея](http://acmp.ru/index.asp?main=task&id_task=641)
-* [0163 Уравнение для 5 класса!](http://acmp.ru/index.asp?main=task&id_task=193)
+* [0163 Уравнение для 5 класса!](http://acmp.ru/index.asp?main=task&id_task=163)
 * [0574 Анаграммы](http://acmp.ru/index.asp?main=task&id_task=574)
 * [0093 Боги](http://acmp.ru/index.asp?main=task&id_task=93)
 * [0013 Быки и коровы](http://acmp.ru/index.asp?main=task&id_task=13)
