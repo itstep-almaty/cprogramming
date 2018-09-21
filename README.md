@@ -3,6 +3,9 @@
 * [Дополнительные материалы](./appendix.md)
 * [Силлабус](./syllabus.pdf)
 
+### Модуль 10: структуры
+* [point_example.cpp](./module10/point_example.cpp)
+
 ### [Модуль 9: массивы указателей](./module09)
 
 * [example01.cpp](./module09/example01.cpp)
