@@ -5,6 +5,7 @@
 
 ### Модуль 10: структуры
 * [point_example.cpp](./module10/point_example.cpp)
+* [pbms.cpp](./module10/pbms.cpp)
 
 ### [Модуль 9: массивы указателей](./module09)
 
