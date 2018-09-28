@@ -64,6 +64,9 @@ void read(Rational &r) {
 	cin >> r.m;
 }
 
+bool lt(Rational r1, Rational r2) {
+	return r1.n*r2.m < r2.n*r1.m;
+}
 int main() {
 	Rational r1 = newRational(2,4);
 	Rational r2 = newRational(2,3);
@@ -77,6 +80,6 @@ int main() {
 	print(add(5, r2));
 	print(add(r2, 5));
 
-	read(r3);
-	print(r3);
+	cout << lt(r1, r2) << endl;
+	cout << lt(r2, r1) << endl;
 }
