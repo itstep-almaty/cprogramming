@@ -32,11 +32,31 @@ struct Rational {
 	int m; // знаменатель denominator
 };
 
+int gcd(int n, int m) { // greatest common divisor, НОД
+	if (n == 0) return 1;
+
+	n = (n < 0 ? -n : n);
+	m = (m < 0 ? -m : m);
+	int mi = (n < m ? n : m);
+
+	int g;
+	for (g = mi; g > 1; g--)
+		if (n%g == 0 && m%g == 0) break;
+
+	return g;
+}
+
+void simplify(Rational & r) { // 16/24 = 2/3
+	int g = gcd(r.n, r.m);
+	r.n /= g;
+	r.m /= g;
+}
 
 Rational newRational(int n, int m) {
 	Rational r;
 	r.n = n;
 	r.m = m;
+	simplify(r);
 	return r;
 }
 
@@ -64,22 +84,39 @@ void read(Rational &r) {
 	cin >> r.m;
 }
 
-bool lt(Rational r1, Rational r2) {
+bool lt(Rational r1, Rational r2) { // less than
 	return r1.n*r2.m < r2.n*r1.m;
 }
+
+
+
 int main() {
-	Rational r1 = newRational(2,4);
-	Rational r2 = newRational(2,3);
+	
+	Rational sum = newRational(0, 1); // 0/1
 
-	print(r1);
-	print(r2);
+	int n;
+	cin >> n;
+	Rational r[100];
+	for (int i = 0; i < n; i++) {
+		read(r[i]);
+		sum = add(sum, r[i]);
+	}
+	simplify(sum);
 
-	Rational r3 = add(r1, r2);
-	print(r3);
 
-	print(add(5, r2));
-	print(add(r2, 5));
+	for (int i = 0; i < n-1; i++) {
+		print(r[i],' ');
+	}
+	print(r[n - 1]);
 
-	cout << lt(r1, r2) << endl;
-	cout << lt(r2, r1) << endl;
+	cout << "sum = ";
+	print(sum);
+	
+
 }
+
+/*
+5
+1/2 3/2 1/4 5/2 7/9
+
+*/
