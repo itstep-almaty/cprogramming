@@ -4,6 +4,7 @@
 * [Силлабус](./syllabus.pdf)
 
 ### Модуль 10: структуры
+* [rat.cpp](./module10/rat.cpp)
 * [point_example.cpp](./module10/point_example.cpp)
 * [pbms.cpp](./module10/pbms.cpp)
 
