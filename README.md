@@ -3,7 +3,24 @@
 * [Дополнительные материалы](./appendix.md)
 * [Силлабус](./syllabus.pdf)
 
-### Модуль 10: структуры
+
+### [Модуль 11: препроцессор](./module11)
+
+* [Этапы компиляции](https://foxford.ru/wiki/informatika/etapy-kompilyatsii)
+* [Подключение стандартных библиотек в С](https://foxford.ru/wiki/informatika/podklyuchenie-standartnyh-bibliotek-v-s)
+* [Макросы препроцессора в С](https://foxford.ru/wiki/informatika/makrosy-preprotsessora-v-s)
+* [Стражи включения заголовочных файлов в С](https://foxford.ru/wiki/informatika/strazhi-vklyucheniya-zagolovochnyh-faylov-v-s)
+* [Модульное программирование на С](https://foxford.ru/wiki/informatika/modulnoe-programmirovanie-na-s)
+* [Принцип раздельной компиляции](https://foxford.ru/wiki/informatika/printsip-razdelnoy-kompilyatsii)
+* [Прототипы функций](https://foxford.ru/wiki/informatika/prototipy-funktsiy)
+* [Модульное программирование в C++](https://foxford.ru/wiki/informatika/modulnoe-programmirovanie-v-c)
+* [Прототипы функций](https://foxford.ru/wiki/informatika/prototipy-funktsiy)
+
+### [Модуль 10: структуры](./module10)
+
+* [Структуры в Си](https://foxford.ru/wiki/informatika/struktury-dannyh-v-s)
+* [Структуры и указатели в Си](https://foxford.ru/wiki/informatika/struktury-i-ukazateli-v-s)
+
 * [rat.cpp](./module10/rat.cpp)
 * [point_example.cpp](./module10/point_example.cpp)
 * [pbms.cpp](./module10/pbms.cpp)
