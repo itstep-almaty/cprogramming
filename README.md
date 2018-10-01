@@ -14,7 +14,6 @@
 * [Принцип раздельной компиляции](https://foxford.ru/wiki/informatika/printsip-razdelnoy-kompilyatsii)
 * [Прототипы функций](https://foxford.ru/wiki/informatika/prototipy-funktsiy)
 * [Модульное программирование в C++](https://foxford.ru/wiki/informatika/modulnoe-programmirovanie-v-c)
-* [Прототипы функций](https://foxford.ru/wiki/informatika/prototipy-funktsiy)
 
 ### [Модуль 10: структуры](./module10)
 
