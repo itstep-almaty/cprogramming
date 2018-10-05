@@ -3,8 +3,30 @@
 * [Дополнительные материалы](./appendix.md)
 * [Силлабус](./syllabus.pdf)
 
+### Модуль 12: ввод/вывод и все что осталось
 
-### [Модуль 11: препроцессор](./module11)
+##### Повторим указатели в C/C++ 
+* [Указатели в С](https://foxford.ru/wiki/informatika/ukazateli-v-s)
+* [Системные вызовы malloc() и free() в С](https://foxford.ru/wiki/informatika/sistemnye-vyzovy-malloc-i-free-v-s)
+* [Работа с динамической памятью в С и С++](https://foxford.ru/wiki/informatika/rabota-s-dinamicheskoy-pamyatyu-v-s-i-s)
+* [Преобразование типа указателя в С](https://foxford.ru/wiki/informatika/preobrazovanie-tipa-ukazatelya-v-s)
+
+##### Файловый ввод/вывод в C
+
+* [Файловый ввод-вывод в С](https://foxford.ru/wiki/informatika/faylovyy-vvod-vyvod-v-s)
+* [Форматированный ввод-вывод в С](https://foxford.ru/wiki/informatika/formatirovannyy-vvod-vyvod-v-s)
+* [Аргументы функции main()](https://foxford.ru/wiki/informatika/argumenty-funktsii-main)
+
+##### Файловый ввод/вывод в C++
+
+* [Ввод-вывод в С++](https://foxford.ru/wiki/informatika/vvod-vyvod-v-s)
+* [Форматирование ввода-вывода в С++](https://foxford.ru/wiki/informatika/formatirovanie-vvoda-vyvoda-v-s)
+* [Контроль состояния ввода-вывода в С++](https://foxford.ru/wiki/informatika/kontrol-sostoyaniya-vvoda-vyvoda-v-s)
+* [Файловые потоки в С++](https://foxford.ru/wiki/informatika/faylovye-potoki-v-s)
+* [Библиотеки string, sstream STL](https://foxford.ru/wiki/informatika/biblioteki-string-sstream-stl)
+
+
+### Модуль 11: препроцессор
 
 * [Этапы компиляции](https://foxford.ru/wiki/informatika/etapy-kompilyatsii)
 * [Подключение стандартных библиотек в С](https://foxford.ru/wiki/informatika/podklyuchenie-standartnyh-bibliotek-v-s)
