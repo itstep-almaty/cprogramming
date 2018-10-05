@@ -3,16 +3,24 @@
 * [Дополнительные материалы](./appendix.md)
 * [Силлабус](./syllabus.pdf)
 
+* [История языков программирования С и С++](https://foxford.ru/wiki/informatika/istoriya-yazykov-programmirovaniya-s-i-s)
+* [Преимущества языка С](https://foxford.ru/wiki/informatika/preimuschestva-yazyka-s)
+* [TIOBE рейтинг языков программирования](https://www.tiobe.com/tiobe-index/)
+
+
 ### Модуль 12: ввод/вывод и все что осталось
 
 ##### Повторим указатели в C/C++ 
+
 * [Указатели в С](https://foxford.ru/wiki/informatika/ukazateli-v-s)
 * [Системные вызовы malloc() и free() в С](https://foxford.ru/wiki/informatika/sistemnye-vyzovy-malloc-i-free-v-s)
 * [Работа с динамической памятью в С и С++](https://foxford.ru/wiki/informatika/rabota-s-dinamicheskoy-pamyatyu-v-s-i-s)
 * [Преобразование типа указателя в С](https://foxford.ru/wiki/informatika/preobrazovanie-tipa-ukazatelya-v-s)
+* [Структуры и указатели в С](https://foxford.ru/wiki/informatika/struktury-i-ukazateli-v-s)
 
 ##### Файловый ввод/вывод в C
 
+* [Базовый ввод-вывод в С](https://foxford.ru/wiki/informatika/bazovyy-vvod-vyvod-v-s)
 * [Файловый ввод-вывод в С](https://foxford.ru/wiki/informatika/faylovyy-vvod-vyvod-v-s)
 * [Форматированный ввод-вывод в С](https://foxford.ru/wiki/informatika/formatirovannyy-vvod-vyvod-v-s)
 * [Аргументы функции main()](https://foxford.ru/wiki/informatika/argumenty-funktsii-main)
