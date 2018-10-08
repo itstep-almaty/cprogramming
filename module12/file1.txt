@@ -1,0 +1,5 @@
+hello
+world
+of C++
+poka
+sincerely yours
