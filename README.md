@@ -22,6 +22,8 @@
 
 * [Базовый ввод-вывод в С](https://foxford.ru/wiki/informatika/bazovyy-vvod-vyvod-v-s)
 * [Файловый ввод-вывод в С](https://foxford.ru/wiki/informatika/faylovyy-vvod-vyvod-v-s)
+   * [cmpfiles.cpp](./module12/cmpfiles.cpp)
+   * [binfiles.cpp](./module12/binfiles.cpp)
 * [Форматированный ввод-вывод в С](https://foxford.ru/wiki/informatika/formatirovannyy-vvod-vyvod-v-s)
 * [Аргументы функции main()](https://foxford.ru/wiki/informatika/argumenty-funktsii-main)
 
